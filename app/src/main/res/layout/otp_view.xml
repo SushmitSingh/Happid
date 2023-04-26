@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_otp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp60"
+    android:orientation="horizontal"
+    app:layout_constraintTop_toBottomOf="@+id/txtEdit">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_dp5"
+        android:layout_weight="1"
+        android:background="@drawable/ic_bg_rounded"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_sp16" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_dp5"
+        android:layout_weight="1"
+        android:background="@drawable/ic_bg_rounded"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_sp16" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_dp5"
+        android:layout_weight="1"
+        android:background="@drawable/ic_bg_rounded"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_sp16" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_dp5"
+        android:layout_weight="1"
+        android:background="@drawable/ic_bg_rounded"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_sp16" />
+
+</LinearLayout>
